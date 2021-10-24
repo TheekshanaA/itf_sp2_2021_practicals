@@ -1,0 +1,61 @@
+<html>
+<head>
+    <script>
+        function img(){
+            document.getElementById("Image").src="http://www.outgrabe.net/bird00.jpg";
+            document.getElementById("ImageText").innerHTML="Pardalote by fir0002 (CC-by-NC)";
+        }
+        function img2(){
+            document.getElementById("Image").src="http://www.outgrabe.net/bird01.jpg";
+            document.getElementById("ImageText").innerHTML="Purple swamp hen by Toby Hudson (CC-by-SA)";
+        }
+        function img3(){
+            document.getElementById("Image").src="http://www.outgrabe.net/bird02.jpg";
+            document.getElementById("ImageText").innerHTML="White-headed Stilt by JJ Harrison (CC-by-SA)";
+        }
+        function img4(){
+            document.getElementById("Image").src="http://www.outgrabe.net/bird03.jpg";
+            document.getElementById("ImageText").innerHTML="Inland Thornbill by Peter Jacobs (CC-by-SA)";
+        }
+        function img5(){
+            document.getElementById("Image").src="http://www.outgrabe.net/bird04.jpg";
+            document.getElementById("ImageText").innerHTML="Rose Robin by JJ Harrison (CC-by-SA)";
+        }
+    </script>
+</head>
+<body>
+    <style>
+        header h1{
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 45px;
+            text-align: center;
+        }
+        header h2{
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 30px;
+            text-align: center;
+        }
+        header{
+            background-color: rgb(241, 196, 15);
+        }
+        main{
+            text-align:center;
+        }
+    </style>
+    <header>
+        <h1>Week 12 Java Script Practical</h1>
+        <h2>By ambnt001 - Nimesh Ambepitiya</h2>
+    </header>
+    <main>
+        <img id="Image" src="http://www.outgrabe.net/bird01.jpg" >
+        <p id="ImageText">Purple swamp hen by Toby Hudson (CC-by-SA)</p>
+        
+        <button onclick="img()">Pardalote</button>
+        <button onclick="img2()">Purple swamp hen</button>
+        <button onclick="img3()">White-headed Stilt</button>
+        <button onclick="img4()">Inland Thornbill</button>
+        <button onclick="img5()">Rose Robin</button>
+    </main>
+
+</body>
+</html>
