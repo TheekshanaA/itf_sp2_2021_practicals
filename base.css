@@ -1,0 +1,94 @@
+:root{
+    --primary-color: #bc6c25;
+    --secondary-color: #DDB892;
+    --bg-color: #EDE0D4;
+    --font-color: #9C6644;
+    --heading-color: #7F5539;
+}
+
+[data-theme="dark"]{
+     --primary-color: #AE2012;
+     --secondary-color: #9B2226;
+     --bg-color: #001219;
+     --font-color: #E9D8A6;
+     --heading-color: #005F73;
+ }
+ h1{
+     color: var(--heading-color);
+     background-color: var(--primary-color);
+     text-align: center;
+ }
+ body{
+     background-color: var(--bg-color);
+ }
+ body li{
+    color: var(--primary-color);
+    background-color: var(--font-color);
+ }
+ body li a{
+     color: var(--secondary-color)
+ }
+ body p{
+     color: var(--font-color)
+ }
+ body h2{
+     color: var(--primary-color)
+ }
+ body h3{
+    color: var(--secondary-color)
+}
+header{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 150%;
+}
+
+nav li {
+    list-style-type: none;
+      margin: 0;
+  padding: 0;
+    color: var(--primary-color)
+}
+
+
+article > section{
+    border: solid 3px;
+    border-color: var(--primary-color);
+}
+
+article{
+    width:80%;
+    float: left;
+}
+
+article h3{
+    padding-top: 50px
+}
+
+nav li{
+    width: 100%;
+}
+nav ul{
+    align-items: center;
+    display: flex;
+}
+
+aside{
+    color: var(--font-color);
+    width: 15%;
+    float: right;
+}
+
+aside a:hover{
+    color: var(--secondary-color);
+}
+
+aside a{
+    color: var(--primary-color)
+}
+
+footer{
+    position:bottom;
+    max-width: 800px;
+    bottom:0;
+}
